@@ -1,0 +1,49 @@
+/* body {
+    background: url('../img/bg.avif');
+    font-family: "Pacifico", cursive;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#login {
+    font-family: "Poppins", sans-serif;
+    width: 50%;
+    background: #fafafa;
+    opacity: 0.9;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 3em;
+    border-top: solid #800000 10px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-red {
+    background: red;
+    width: 33%;
+}
+
+.bg-yellow {
+    background: yellow;
+    width: 33%;
+}
+
+.bg-green {
+    background: green;
+    width: 33%;
+}
+ */
