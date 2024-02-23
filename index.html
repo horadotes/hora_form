@@ -8,13 +8,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Home</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="login.html">Login</a>
-    </nav>
-    <div>
-
+    <div class="flex justify-center">
+        <form action="login.html" method="POST" id="registrationform" class="custom-bg-dark lalala">
+            <h3 class="text-clr-white">Survey Form</h3>
+            <div class="flex">
+                <input type="text" name="firstname" class="form-inner" placeholder="First Name">
+                <input type="text" name="lastname" class="form-inner" placeholder="Last Name">
+                <input type="text" name="middlename" class="form-inner" placeholder="Middle Name">
+            </div>
+            <div>
+                <input type="text" name="survey1" placeholder="How old are you?">
+            </div>
+            <div>
+                <input type="text" name="survey2" placeholder="What is your hobby?">
+            </div>
+            <div>
+                <input type="text" name="survey3" placeholder="What is your favorite color?">
+            </div>
+            <div>
+                <input type="text" name="survey4" placeholder="What is your favorite dessert?">
+            </div>
+            <div>
+                <input type="text" name="survey5" placeholder="Submit your feedback about this website.">
+            </div>
+            <div>
+                <button class="btn-submit margin-t50px" role="button">Submit</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

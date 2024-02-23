@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="custom-bg-rgba22 text-right nav-default">
-        <a href="index.html" class="text-clr-white margin-t9px nav-default">Home</a>
-    </nav>
+    <!-- <nav class="custom-bg-rgba22 nav-default">
+        <span class="text-clr-white">hzkhora</span>
+        <span>
+            <a href="index.html" class="text-clr-white margin-t124px float-right nav-default">Home</a>
+        </span>
+    </nav> -->
     <div class="flex justify-center">
-        <form action="#" method="POST" id="login" class="custom-bg-dark">
-            <h3 class="text-center">Welcome</h3>
+        <form action="index.html" method="POST" id="login" class="custom-bg-dark form-inner">
+            <h3 class="text-center text-clr-white">Welcome</h3>
             <div>
-                <label for="email_address">Email address</label> <br />
-                <input type="text" name="email_address">
+                <input type="text" name="email_address form-inner" placeholder="Email address">
             </div>
             <div>
-                <label for="password">Password</label> <br />
-                <input type="password" name="password">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="text-right margin-t10px">
+                <a href="forgot-password.html" class="text-clr-white no-decoration">Forgot Password?</a>
             </div>
             <div>
-                <input type="checkbox" name="remember_me"> Remember me <br/>
-                <a href="forgot-password.html">Forgot Password</a>
+                <button class="button-28" role="button">Sign In</button>
             </div>
-            <div>
-                No account yet? Sign up <a href="signup.html">here</a>
-            </div>
-            <div>
-                <button class="button-28" role="button">Login</button>
+            <div class="margin-t5px text-right">
+                <a href="signup.html" class="text-clr-white no-decoration">No account yet? Sign up here</a>
             </div>
         </form>
     </div>
