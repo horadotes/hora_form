@@ -1,5 +1,5 @@
-/* body {
-    background: url('../img/bg.avif');
+body {
+    background: url('../img/stibuilding.jpg');
     font-family: "Pacifico", cursive;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -9,7 +9,6 @@
     font-family: "Poppins", sans-serif;
     width: 50%;
     background: #fafafa;
-    opacity: 0.9;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -18,6 +17,11 @@
     border-top: solid #800000 10px;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
+}
+
+.bg-grey {
+    background: grey;
+    width: 33%;
 }
 
 .text-center {
@@ -46,4 +50,4 @@
     background: green;
     width: 33%;
 }
- */
+
