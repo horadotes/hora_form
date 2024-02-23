@@ -8,34 +8,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="flex bg-grey">
-        <h2>Login</h2>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="login.html">Login</a>
-        </nav>
-        <div>
-            <form action="index.html" method="POST" id="">
-                <div>
-                    <label for="email_address">Email address</label> <br />
-                    <input type="text" name="email_address">
-                </div>
-                <div>
-                    <label for="password">Password</label> <br />
-                    <input type="password" name="password">
-                </div>
-                <div>
-                    <input type="checkbox" name="remember_me"> Remember me
-                    <a href="forgot-password.html">Forgot Password</a>
-                </div>
-                <div>
-                    <input type="submit" value="Login">
-                </div>
-                <div>
-                    No account yet? Sign up <a href="signup.html">here</a>
-                </div>
-            </form>
-        </div>
+    <nav class="custom-bg-rgba22 text-right nav-default">
+        <a href="index.html" class="text-clr-white margin-t9px nav-default">Home</a>
+    </nav>
+    <div class="flex justify-center">
+        <form action="#" method="POST" id="login" class="custom-bg-dark">
+            <h3 class="text-center">Welcome</h3>
+            <div>
+                <label for="email_address">Email address</label> <br />
+                <input type="text" name="email_address">
+            </div>
+            <div>
+                <label for="password">Password</label> <br />
+                <input type="password" name="password">
+            </div>
+            <div>
+                <input type="checkbox" name="remember_me"> Remember me <br/>
+                <a href="forgot-password.html">Forgot Password</a>
+            </div>
+            <div>
+                No account yet? Sign up <a href="signup.html">here</a>
+            </div>
+            <div>
+                <button class="button-28" role="button">Login</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

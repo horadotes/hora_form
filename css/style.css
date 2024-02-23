@@ -1,31 +1,36 @@
 body {
-    background: url('../img/stibuilding.jpg');
+    background: #000000;
     font-family: "Pacifico", cursive;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+.nav-default {
+    text-decoration: none;
+}
+
 #login {
     font-family: "Poppins", sans-serif;
-    width: 50%;
-    background: #fafafa;
+    width: 20%;
+    opacity: 0.9;
+    background: rgba(22, 22, 23, .8);
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
-    padding: 3em;
-    border-top: solid #800000 10px;
+    padding: 3em;   
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
-}
-
-.bg-grey {
-    background: grey;
-    width: 33%;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
 }
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .flex {
@@ -36,9 +41,22 @@ body {
     justify-content: center;
 }
 
+.text-clr-white {
+    color: white;
+}
+
 .bg-red {
     background: red;
     width: 33%;
+}
+
+.custom-bg-dark {
+    background: #393E46;
+}
+
+.custom-bg-rgba22 {
+    background:rgba(22, 22, 23, .8);
+    width: 100%;
 }
 
 .bg-yellow {
@@ -51,3 +69,50 @@ body {
     width: 33%;
 }
 
+.margin-t9px {
+    margin: 9px;
+}
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
