@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background: linear-gradient(270deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     font-family: "Poppins", sans-serif;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .nav-default {
@@ -18,15 +19,9 @@ body {
     font-family: "Poppins", sans-serif;
     width: 20%;
     background: rgba(22, 22, 23, .8);
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
     padding: 3em;   
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
+    border-radius: 45px;
+    margin: 50px auto;
 }
 
 #registrationform {
